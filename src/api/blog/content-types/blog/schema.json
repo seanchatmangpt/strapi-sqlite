@@ -4,7 +4,8 @@
   "info": {
     "singularName": "blog",
     "pluralName": "blogs",
-    "displayName": "Blog"
+    "displayName": "Blog",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,6 +14,17 @@
   "attributes": {
     "text": {
       "type": "richtext"
+    },
+    "author": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::author.author"
+    },
+    "worlds": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::world.world",
+      "inversedBy": "blogs"
     }
   }
 }

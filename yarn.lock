@@ -1404,7 +1404,7 @@
     prop-types "^15.8.1"
     react-remove-scroll "^2.5.6"
 
-"@strapi/design-system@1.9.0":
+"@strapi/design-system@1.9.0", "@strapi/design-system@^1.9.0":
   version "1.9.0"
   resolved "https://registry.yarnpkg.com/@strapi/design-system/-/design-system-1.9.0.tgz#fbccd17f74cba0262c4aabbfdd8d1e8325f64e79"
   integrity sha512-JDeoJigur0lNJFkQN9XuM9BuGXHa+LIqSqT6cefH1a6x4zMxW2LGSsM7sewZfaAolKmwVgHWBI3ON9ViOLcT6Q==

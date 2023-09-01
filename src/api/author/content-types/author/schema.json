@@ -33,6 +33,12 @@
       "relation": "oneToMany",
       "target": "api::article.article",
       "mappedBy": "authorsBio"
+    },
+    "worlds": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::world.world",
+      "mappedBy": "author"
     }
   }
 }
