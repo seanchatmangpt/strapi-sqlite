@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "linked_in_profiles",
+  "info": {
+    "singularName": "linked-in-profile",
+    "pluralName": "linked-in-profiles",
+    "displayName": "LinkedInProfile"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "lastName": {
+      "type": "string"
+    },
+    "firstName": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "string"
+    },
+    "profilePicture": {
+      "type": "string"
+    },
+    "profileLink": {
+      "type": "string"
+    }
+  }
+}
